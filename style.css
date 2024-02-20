@@ -14,8 +14,9 @@ body {
 
 header {
     max-width: 80%;
-    margin: 0 auto;
+    margin: 5px auto;
     font-size: 18px;
+    padding-bottom: 75px;
 }
 nav {
     display: flex;
@@ -63,4 +64,35 @@ nav {
     background-color: gray;
     width: 50%;
     text-align: center;
+}
+
+.section-2 {
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.section-2 h2 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 12px;
+    text-align: center;
+    width: 80%;
+    margin: 25px auto;
+}
+.images div {
+    width: 125px;
+}
+.image {
+    border: 2px solid #3882F6;
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
 }
