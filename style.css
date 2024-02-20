@@ -15,7 +15,7 @@ body {
 
 header {
     max-width: 80%;
-    margin: 5px auto;
+    margin: 10px auto;
     font-size: 18px;
     padding-bottom: 75px;
 }
@@ -31,7 +31,11 @@ nav {
     display: flex;
     justify-content: space-between;
     flex-basis: 450px;
-    color: #E5E7EB
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .hero {
