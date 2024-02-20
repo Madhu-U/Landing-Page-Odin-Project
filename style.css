@@ -96,3 +96,24 @@ nav {
     height: 125px;
     border-radius: 10px;
 }
+
+.section-3 {
+    background-color: #E5E7EB;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+blockquote p{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    width:800px;
+    color: #1F2937;
+}
+
+blockquote footer {
+    font-size: 32;
+    font-weight: 600;
+    text-align: right;
+}
